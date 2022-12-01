@@ -15,6 +15,7 @@ public class AuthenticationController {
 
     @PostMapping("/login")
     public String login(@RequestParam(name = "userName") String userName, @RequestParam(name = "password") String password, Model model) {
+        System.out.println(userName);
         return "redirect:/posts";
     }
 

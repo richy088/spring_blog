@@ -20,7 +20,7 @@ public class UserWithRoles extends User implements UserDetails {
 
     @Override
     public String getUsername() {
-        return getUsername();
+        return "richy";
     }
 
     @Override
